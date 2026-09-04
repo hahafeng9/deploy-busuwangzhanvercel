@@ -18,12 +18,12 @@ const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
 const UUID = process.env.UUID || '06989ca6-bd56-485e-add6-2e7377c3669a';
-const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
-const NEZHA_KEY = process.env.NEZHA_KEY || '';             
-const DOMAIN = process.env.DOMAIN || '';    
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.aahhf.ggff.net';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'BfAocx2EuJMNXhQbeU1FGPfmesrV1xJP';             
+const DOMAIN = process.env.DOMAIN || 'vexlo.5785787.xyz';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
 const SUB_PATH = process.env.SUB_PATH || 'sub';           
-const NAME = process.env.NAME || 'wangzhanhah';                       
+const NAME = process.env.NAME || 'vexlo';                       
 const PORT = process.env.PORT || 3000;                    
 
 // NZ-Agent
