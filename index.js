@@ -17,13 +17,13 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || 'f3557f29-57cd-49af-940f-887cccd1069f';
+const UUID = process.env.UUID || 'd561401c-a8d7-4614-8fa5-fadf37a3c066';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
 const DOMAIN = process.env.DOMAIN || '';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
 const SUB_PATH = process.env.SUB_PATH || 'sub';           
-const NAME = process.env.NAME || 'yingdu--Vexlo';                       
+const NAME = process.env.NAME || 'deployzy.com';                       
 const PORT = process.env.PORT || 3000;                    
 
 // NZ-Agent
